@@ -1,0 +1,416 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		77E430561DE449B400C1D471 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E430551DE449B400C1D471 /* AppDelegate.swift */; };
+		77E430581DE449B400C1D471 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E430571DE449B400C1D471 /* ViewController.swift */; };
+		77E4305A1DE449B400C1D471 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77E430591DE449B400C1D471 /* Assets.xcassets */; };
+		77E4305D1DE449B400C1D471 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77E4305B1DE449B400C1D471 /* Main.storyboard */; };
+		77E430681DE449B400C1D471 /* CrindoUtilitiesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E430671DE449B400C1D471 /* CrindoUtilitiesTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		77E430641DE449B400C1D471 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 77E4304A1DE449B400C1D471 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 77E430511DE449B400C1D471;
+			remoteInfo = CrindoUtilities;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		77E430521DE449B400C1D471 /* CrindoUtilities.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CrindoUtilities.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		77E430551DE449B400C1D471 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		77E430571DE449B400C1D471 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		77E430591DE449B400C1D471 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		77E4305C1DE449B400C1D471 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		77E4305E1DE449B400C1D471 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		77E430631DE449B400C1D471 /* CrindoUtilitiesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CrindoUtilitiesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		77E430671DE449B400C1D471 /* CrindoUtilitiesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrindoUtilitiesTests.swift; sourceTree = "<group>"; };
+		77E430691DE449B400C1D471 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		77E4304F1DE449B400C1D471 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77E430601DE449B400C1D471 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		77E430491DE449B400C1D471 = {
+			isa = PBXGroup;
+			children = (
+				77E430541DE449B400C1D471 /* CrindoUtilities */,
+				77E430661DE449B400C1D471 /* CrindoUtilitiesTests */,
+				77E430531DE449B400C1D471 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		77E430531DE449B400C1D471 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				77E430521DE449B400C1D471 /* CrindoUtilities.app */,
+				77E430631DE449B400C1D471 /* CrindoUtilitiesTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		77E430541DE449B400C1D471 /* CrindoUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				77E430551DE449B400C1D471 /* AppDelegate.swift */,
+				77E430571DE449B400C1D471 /* ViewController.swift */,
+				77E430591DE449B400C1D471 /* Assets.xcassets */,
+				77E4305B1DE449B400C1D471 /* Main.storyboard */,
+				77E4305E1DE449B400C1D471 /* Info.plist */,
+			);
+			path = CrindoUtilities;
+			sourceTree = "<group>";
+		};
+		77E430661DE449B400C1D471 /* CrindoUtilitiesTests */ = {
+			isa = PBXGroup;
+			children = (
+				77E430671DE449B400C1D471 /* CrindoUtilitiesTests.swift */,
+				77E430691DE449B400C1D471 /* Info.plist */,
+			);
+			path = CrindoUtilitiesTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		77E430511DE449B400C1D471 /* CrindoUtilities */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 77E4306C1DE449B400C1D471 /* Build configuration list for PBXNativeTarget "CrindoUtilities" */;
+			buildPhases = (
+				77E4304E1DE449B400C1D471 /* Sources */,
+				77E4304F1DE449B400C1D471 /* Frameworks */,
+				77E430501DE449B400C1D471 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CrindoUtilities;
+			productName = CrindoUtilities;
+			productReference = 77E430521DE449B400C1D471 /* CrindoUtilities.app */;
+			productType = "com.apple.product-type.application";
+		};
+		77E430621DE449B400C1D471 /* CrindoUtilitiesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 77E4306F1DE449B400C1D471 /* Build configuration list for PBXNativeTarget "CrindoUtilitiesTests" */;
+			buildPhases = (
+				77E4305F1DE449B400C1D471 /* Sources */,
+				77E430601DE449B400C1D471 /* Frameworks */,
+				77E430611DE449B400C1D471 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				77E430651DE449B400C1D471 /* PBXTargetDependency */,
+			);
+			name = CrindoUtilitiesTests;
+			productName = CrindoUtilitiesTests;
+			productReference = 77E430631DE449B400C1D471 /* CrindoUtilitiesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		77E4304A1DE449B400C1D471 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = Mayur;
+				TargetAttributes = {
+					77E430511DE449B400C1D471 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = FGMG6GZVKT;
+						ProvisioningStyle = Automatic;
+					};
+					77E430621DE449B400C1D471 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = FGMG6GZVKT;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 77E430511DE449B400C1D471;
+					};
+				};
+			};
+			buildConfigurationList = 77E4304D1DE449B400C1D471 /* Build configuration list for PBXProject "CrindoUtilities" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 77E430491DE449B400C1D471;
+			productRefGroup = 77E430531DE449B400C1D471 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				77E430511DE449B400C1D471 /* CrindoUtilities */,
+				77E430621DE449B400C1D471 /* CrindoUtilitiesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		77E430501DE449B400C1D471 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77E4305A1DE449B400C1D471 /* Assets.xcassets in Resources */,
+				77E4305D1DE449B400C1D471 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77E430611DE449B400C1D471 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		77E4304E1DE449B400C1D471 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77E430581DE449B400C1D471 /* ViewController.swift in Sources */,
+				77E430561DE449B400C1D471 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77E4305F1DE449B400C1D471 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77E430681DE449B400C1D471 /* CrindoUtilitiesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		77E430651DE449B400C1D471 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 77E430511DE449B400C1D471 /* CrindoUtilities */;
+			targetProxy = 77E430641DE449B400C1D471 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		77E4305B1DE449B400C1D471 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				77E4305C1DE449B400C1D471 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		77E4306A1DE449B400C1D471 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		77E4306B1DE449B400C1D471 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		77E4306D1DE449B400C1D471 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = FGMG6GZVKT;
+				INFOPLIST_FILE = CrindoUtilities/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Mayur.CrindoUtilities;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		77E4306E1DE449B400C1D471 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = FGMG6GZVKT;
+				INFOPLIST_FILE = CrindoUtilities/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Mayur.CrindoUtilities;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		77E430701DE449B400C1D471 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = FGMG6GZVKT;
+				INFOPLIST_FILE = CrindoUtilitiesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Mayur.CrindoUtilitiesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CrindoUtilities.app/Contents/MacOS/CrindoUtilities";
+			};
+			name = Debug;
+		};
+		77E430711DE449B400C1D471 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = FGMG6GZVKT;
+				INFOPLIST_FILE = CrindoUtilitiesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Mayur.CrindoUtilitiesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CrindoUtilities.app/Contents/MacOS/CrindoUtilities";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		77E4304D1DE449B400C1D471 /* Build configuration list for PBXProject "CrindoUtilities" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77E4306A1DE449B400C1D471 /* Debug */,
+				77E4306B1DE449B400C1D471 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		77E4306C1DE449B400C1D471 /* Build configuration list for PBXNativeTarget "CrindoUtilities" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77E4306D1DE449B400C1D471 /* Debug */,
+				77E4306E1DE449B400C1D471 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		77E4306F1DE449B400C1D471 /* Build configuration list for PBXNativeTarget "CrindoUtilitiesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77E430701DE449B400C1D471 /* Debug */,
+				77E430711DE449B400C1D471 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 77E4304A1DE449B400C1D471 /* Project object */;
+}
