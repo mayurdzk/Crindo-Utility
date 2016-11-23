@@ -330,6 +330,7 @@
 				DEVELOPMENT_TEAM = FGMG6GZVKT;
 				INFOPLIST_FILE = CrindoUtilities/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_BUNDLE_IDENTIFIER = com.Mayur.CrindoUtilities;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
@@ -344,6 +345,7 @@
 				DEVELOPMENT_TEAM = FGMG6GZVKT;
 				INFOPLIST_FILE = CrindoUtilities/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_BUNDLE_IDENTIFIER = com.Mayur.CrindoUtilities;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
@@ -401,6 +403,7 @@
 				77E4306E1DE449B400C1D471 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		77E4306F1DE449B400C1D471 /* Build configuration list for PBXNativeTarget "CrindoUtilitiesTests" */ = {
 			isa = XCConfigurationList;
@@ -409,6 +412,7 @@
 				77E430711DE449B400C1D471 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
